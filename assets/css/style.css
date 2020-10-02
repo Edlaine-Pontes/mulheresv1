@@ -1,13 +1,4 @@
-/**
-* Template Name: Selecao - v2.2.0
-* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -26,9 +17,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   display: none;
@@ -55,81 +43,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Disable AOS delay on mobile
---------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-#header {
-  height: 70px;
-  transition: all 0.5s;
-  z-index: 997;
-  transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
-}
 
-#header.header-transparent {
-  background: transparent;
-}
-
-#header.header-scrolled {
-  background: rgba(42, 44, 57, 0.9);
-}
-
-#header .logo h1 {
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-#header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
-}
-
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Desktop Navigation */
-.nav-menu, .nav-menu * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav-menu > ul > li {
-  position: relative;
-  white-space: nowrap;
-  float: left;
-}
-
-.nav-menu a {
-  display: block;
-  position: relative;
-  color: #fff;
-  padding: 5px 15px 7px 15px;
-  margin-left: 5px;
-  transition: 0.3s;
-  font-size: 14px;
-  border-radius: 50px;
-  font-family: "Open Sans", sans-serif;
-}
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   background: #ef6603;
@@ -600,6 +521,7 @@ section {
   animation-delay: 0.8s;
   margin-top: 6px;
   border: 2px solid #8a05be;
+  text-align: center;
 }
 
 .about .content .btn-learn-more:hover {
